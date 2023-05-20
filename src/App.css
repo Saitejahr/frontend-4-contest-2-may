@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: white;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 1px 3px rgb(42, 41, 41);
+  background-color: white;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid rgb(191, 187, 187);
+}
+
+th {
+  background-color: rgb(42, 215, 94);
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(225, 214, 214);
+}
+
+tr:hover {
+  background-color: hsla(310, 51%, 44%, 0.906);
+}
+
+img {
+  border-radius: 50%;
+}
